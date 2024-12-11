@@ -6,12 +6,16 @@
 }
 
 html {
+    height: 100%;
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 body {
-    /* background: #D8D2FF; */
+    height: 100%;
     color: black;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 #header {
@@ -20,6 +24,10 @@ body {
     background-image: url(images/webbg.png);
     background-size: cover;
     background-position: center;
+    color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
 
 .container {
@@ -34,7 +42,7 @@ nav {
 }
 
 .logo {
-    width: 140px;
+    width: 180px;
 }
 
 nav ul li {
@@ -48,6 +56,7 @@ nav ul li a {
     text-decoration: none;
     font-size: 17px;
     position: relative;
+    color: #fff;
 }
 
 nav ul li a::after {
@@ -83,6 +92,10 @@ nav ul li a:hover::after {
 
 #about {
     padding: 80px 0;
+    position: relative;
+    z-index: 2;
+    background-color: #333055;
+    color: #D8D2FF;
 }
 
 .row {
@@ -98,7 +111,7 @@ nav ul li a:hover::after {
 .about-col-1 img {
     width: 100%;
     border-radius: 15px;
-    border: 2px solid #D8D2FF;
+    border: 5px solid #333055;
 }
 
 .about-col-2 {
@@ -108,6 +121,7 @@ nav ul li a:hover::after {
 .sub-title {
     font-size: 60px;
     font-weight: 600;
+    color: #fff;
 }
 
 .about-col-2 p span {
@@ -151,6 +165,11 @@ nav ul li a:hover::after {
     margin: 10px 0;
 }
 
+.tab-contents ul li ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
 .tab-contents ul li span {
     color: #fe5f5f;
     font-size: 14px;
@@ -169,6 +188,10 @@ nav ul li a:hover::after {
 
 #services {
     padding: 30px 0;
+    position: relative;
+    z-index: 2;
+    height: 100vh;
+    background: #333055;
 }
 
 .services-list {
@@ -214,6 +237,9 @@ nav ul li a:hover::after {
 
 #portfolio {
     padding: 50px 0;
+    position: relative;
+    z-index: 2;
+    background: #333055;
 }
 
 .work-list {
@@ -296,14 +322,75 @@ nav ul li a:hover::after {
     background: #D8D2FF;
 }
 
+/* --------- my blogs --------- */
+
+#blogs {
+    padding: 30px 0;
+    position: relative;
+    z-index: 2;
+    padding-bottom: 150px;;
+    background: #333055;
+}
+
+.blogs-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+
+.blogs-list div {
+    background: #D8D2FF;
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 300;
+    border-radius: 10px;
+    transition: background 0.5s, transform 0.5s;
+}
+
+.blogs-list div i {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.blogs-list div h2 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.blogs-list div a {
+    text-decoration: none;
+    font-size: 12px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.blogs-list div:hover {
+    background: #ff5757;
+    transform: translateY(-10px);
+}
+
 /* --------- contact --------- */
+
+#contact {
+    padding: 30px 0;
+    position: relative;
+    z-index: 2;
+    background: #333055;
+}
 
 .contact-left {
     flex-basis: 35%;
+    position: relative;
+    z-index: 2;
 }
 
 .contact-right {
     flex-basis: 60%;
+    position: relative;
+    z-index: 2;
+    /* background: #333055; */
 }
 
 .contact-left p {
@@ -329,7 +416,6 @@ nav ul li a:hover::after {
     display: inline-block;
     transition: transform 0.5s;
 }
-
 
 .social-icons a:hover {
     color: #fe5f5f;
@@ -369,13 +455,13 @@ form btn2 {
     padding: 25px 0;
     background: #D8D2FF;
     font-weight: 300;
-    margin-top: 20px;
+    position: relative;
+    z-index: 2;
 }
 
 .copyright p i {
     color: #ff5757;
 }
-
 
 /* --------- css for small screen --------- */
 
@@ -401,6 +487,14 @@ nav .fa-solid {
     .header-text h1 {
         font-size: 30px;
     }
+
+    .logo {
+        width: 130px;
+    }
+
+    /* #about {
+        background: #D8D2FF;
+    } */
 
     nav .fa-regular {
         display: block;
