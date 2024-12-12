@@ -21,7 +21,7 @@ body {
 #header {
     width: 100%;
     height: 100vh;
-    background-image: url(images/webbg.png);
+    background-image: url(images/webbg1.png);
     background-size: cover;
     background-position: center;
     color: #fff;
@@ -42,7 +42,8 @@ nav {
 }
 
 .logo {
-    width: 180px;
+    height: 35px;
+    width: 75px;
 }
 
 nav ul li {
@@ -94,7 +95,7 @@ nav ul li a:hover::after {
     padding: 80px 0;
     position: relative;
     z-index: 2;
-    background-color: #333055;
+    background-color: #171433;
     color: #D8D2FF;
 }
 
@@ -143,6 +144,7 @@ nav ul li a:hover::after {
     font-weight: 500;
     cursor: pointer;
     position: relative;
+    color: #fff;
 }
 
 .tab-links::after {
@@ -163,6 +165,7 @@ nav ul li a:hover::after {
 .tab-contents ul li {
     list-style: none;
     margin: 10px 0;
+    color: #fff;
 }
 
 .tab-contents ul li ul li a {
@@ -190,8 +193,7 @@ nav ul li a:hover::after {
     padding: 30px 0;
     position: relative;
     z-index: 2;
-    height: 100vh;
-    background: #333055;
+    background: #171433;
 }
 
 .services-list {
@@ -223,14 +225,21 @@ nav ul li a:hover::after {
 
 .services-list div a {
     text-decoration: none;
-    font-size: 12px;
+    font-size: 13px;
     margin-top: 20px;
     display: inline-block;
+    color: #171433;
 }
 
 .services-list div:hover {
-    background: #ff5757;
+    background: #333055;
+    color: #fff;
+    border: 2px solid #fff;
     transform: translateY(-10px);
+}
+
+.services-list div a:hover {
+    color: #fff;
 }
 
 /* --------- portfolio --------- */
@@ -239,7 +248,7 @@ nav ul li a:hover::after {
     padding: 50px 0;
     position: relative;
     z-index: 2;
-    background: #333055;
+    background: #171433;
 }
 
 .work-list {
@@ -255,6 +264,10 @@ nav ul li a:hover::after {
     overflow: hidden;
 }
 
+.layer p {
+    text-align: justify;    
+}
+
 .work img {
     width: 100%;
     border-radius: 10px;
@@ -265,7 +278,7 @@ nav ul li a:hover::after {
 .layer {
     width: 100%;
     height: 0;
-    background: linear-gradient(to top, rgb(255, 87, 87, 0.6), #fff);
+    background: linear-gradient(to top,#333055, #fff);
     border-radius: 10px;
     position: absolute;
     left: 0;
@@ -314,62 +327,15 @@ nav ul li a:hover::after {
     border: 1px solid #D8D2FF;
     padding: 14px 50px;
     border-radius: 6px;
+    background: #D8D2FF;
     text-decoration: none;
     transition: background 0.5s;
-}
-
-.btn:hover {
-    background: #D8D2FF;
+    color: #333055;
 }
 
 /* --------- my blogs --------- */
 
-#blogs {
-    padding: 30px 0;
-    position: relative;
-    z-index: 2;
-    padding-bottom: 150px;;
-    background: #333055;
-}
-
-.blogs-list {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-gap: 40px;
-    margin-top: 50px;
-}
-
-.blogs-list div {
-    background: #D8D2FF;
-    padding: 40px;
-    font-size: 13px;
-    font-weight: 300;
-    border-radius: 10px;
-    transition: background 0.5s, transform 0.5s;
-}
-
-.blogs-list div i {
-    font-size: 50px;
-    margin-bottom: 30px;
-}
-
-.blogs-list div h2 {
-    font-size: 30px;
-    font-weight: 500;
-    margin-bottom: 15px;
-}
-
-.blogs-list div a {
-    text-decoration: none;
-    font-size: 12px;
-    margin-top: 20px;
-    display: inline-block;
-}
-
-.blogs-list div:hover {
-    background: #ff5757;
-    transform: translateY(-10px);
-}
+/* Upcoming */
 
 /* --------- contact --------- */
 
@@ -377,13 +343,14 @@ nav ul li a:hover::after {
     padding: 30px 0;
     position: relative;
     z-index: 2;
-    background: #333055;
+    background: #171433;
 }
 
 .contact-left {
     flex-basis: 35%;
     position: relative;
     z-index: 2;
+    color: #fff;
 }
 
 .contact-right {
@@ -399,7 +366,7 @@ nav ul li a:hover::after {
 }
 
 .contact-left p i {
-    color: #ff5757;
+    color: #D8D2FF;
     margin-right: 15px;
     font-size: 25px;
 }
@@ -412,19 +379,23 @@ nav ul li a:hover::after {
     text-decoration: none;
     font-size: 30px;
     margin-right: 15px;
-    color: black;
+    color: #D8D2FF;
     display: inline-block;
     transition: transform 0.5s;
 }
 
 .social-icons a:hover {
-    color: #fe5f5f;
     transform: translateY(-5px);
 }
 
 .btn.btn2 {
     display: inline-block;
     background: #D8D2FF;
+}
+
+.btn.btn2:hover {
+    background-color: #333055;
+    color: #fff;
 }
 
 .contain-right form {
@@ -435,11 +406,12 @@ form input, form textarea {
     width: 100%;
     border: 0;
     outline: none;
-    background: #d9ffd3;
+    background: #333055;
     padding: 15px;
     margin: 15px 0;
     font-size: 18px;
     border-radius: 6px;
+    color: #fff;
 }
 
 form btn2 {
@@ -461,6 +433,10 @@ form btn2 {
 
 .copyright p i {
     color: #ff5757;
+}
+
+.copyright p span {
+    font-weight: 600;
 }
 
 /* --------- css for small screen --------- */
@@ -489,12 +465,9 @@ nav .fa-solid {
     }
 
     .logo {
-        width: 130px;
+        width: 60px;
+        height: 30px;
     }
-
-    /* #about {
-        background: #D8D2FF;
-    } */
 
     nav .fa-regular {
         display: block;
@@ -507,7 +480,7 @@ nav .fa-solid {
     }
 
     nav ul {
-        background: #d9ffd3;
+        background: #171433;
         position: fixed;
         top: 0;
         right: -200px;
