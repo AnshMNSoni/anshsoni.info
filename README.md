@@ -1,13 +1,13 @@
 # 🚀 My Personal Portfolio Website
 
-Welcome to my personal portfolio! This website showcases my projects, skills, and experience as a developer. Built with **HTML**, **CSS**, and **JavaScript**, it reflects my passion for web development and technology.
+Welcome to my `personal portfolio!` This website showcases my projects, skills, and experience as a developer. Built with **HTML**, **CSS**, and **JavaScript**, it reflects my passion for web development and technology.
 
-## 🌐 Live Demo
-[Visit My Portfolio](https://anshmnsoni.github.io/anshsoni.info/)
+### 🌐 Live Demo
+👉 [Visit My Portfolio](https://anshmnsoni.github.io/anshsoni.info/)
 
 ---
 
-## 📄 Features
+### 📄 Features
 
 - **Responsive Design**: Looks great on all devices — desktop, tablet, and mobile.
 - **Smooth Animations**: Engaging transitions and effects.
@@ -18,7 +18,7 @@ Welcome to my personal portfolio! This website showcases my projects, skills, an
 
 ---
 
-## 🛠️ Tech Stack
+### 🛠️ Tech Stack
 
 - **HTML**: For structuring the content.
 - **CSS**: For styling and layout.
@@ -26,11 +26,11 @@ Welcome to my personal portfolio! This website showcases my projects, skills, an
 
 ---
 
-## 📬 Connect with Me
+### 📬 Connect with Me
 
 - **LinkedIn**: [Your LinkedIn Profile](https://linkedin.com/in/anshmnsoni/)
 - **GitHub**: [Your GitHub Profile](https://github.com/AnshMNSoni)
 
 ---
 
-Thank you for checking out my portfolio! 🌟
+🙏 Thank you for checking out my portfolio! 🌟
