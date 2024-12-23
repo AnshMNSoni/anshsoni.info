@@ -149,4 +149,9 @@ h3 {
     body {
         background: white;
     }
+
+    p {
+        width: 485px;
+        text-align: justify;
+    }
 }
