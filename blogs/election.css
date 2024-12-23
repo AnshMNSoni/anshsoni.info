@@ -1,0 +1,150 @@
+body {
+    background: #A19DD5;
+    margin: 0px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#heading {
+    color: white;
+    border-bottom: 5px solid black;
+    background: #333055;
+    margin: 0px;
+    height:200px;
+}
+ 
+h1 {
+    margin: 0px;
+    margin-left: 55px;
+    padding-top: 30px;
+    width: 133px;
+    font-family: "Ga Maamli", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: 2px 2px red;
+}
+
+h2 {
+    margin: 0px;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: condensed;
+}
+
+h3 {
+    margin: 0px;
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    font-stretch: condensed;
+}
+
+#article {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.title {
+    margin: 0px;
+    margin-top: -35px;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 650;
+    font-size: 20px;
+}
+
+.content {
+    margin: 0px;
+    font-size: 16px;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    padding-left: 40px;
+    font-weight: 400;
+}
+
+.paragraph {
+    margin: 0px;
+    margin-left: 30px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#image {
+    width: 200px;
+    height: 200px;
+    margin: 0px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 110px;
+    border: 4px solid #F8F9D7;
+}
+
+#img_layout {
+    margin: 0px;
+    margin-top: -16px;
+    width: 600px;
+    height: 300px;
+}
+
+#read_more {
+    margin: 0px;
+    padding-left: 20px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.my_blogs {
+    background-color: white;
+    border: 1px solid black;
+    margin: 0px;
+    margin-left: 400px;
+    margin-top: -50px;
+    margin-bottom: 30px;
+    height: 1750px;
+    width: 600px;
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.all_images {
+    margin: 0px;
+    height: 250px;
+    width: 500px;
+    padding-left: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+    .my_blogs {
+        margin-left: 0px;
+        width: 500px;
+        display: inline;
+    }
+
+    #img_layout {
+        margin-top: 100px;
+        display: block;
+        height: 300px;
+        width: 550px;
+    }
+
+    #heading {
+        width: 550px;
+        background: #333055;
+        border: none;
+    }
+
+    body {
+        background: white;
+    }
+
+    p {
+        width: 500px;
+        text-align: justify;
+    }
+}

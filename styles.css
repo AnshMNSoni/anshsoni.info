@@ -335,12 +335,63 @@ nav ul li a:hover::after {
 
 /* --------- my blogs --------- */
 
-/* Upcoming */
+#blogs {
+    padding: 20px 0;
+    position: relative;
+    z-index: 2;
+    background: #171433;
+}
+
+.blogs-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+
+.blogs-list div {
+    background: #D8D2FF;
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 300;
+    border-radius: 10px;
+    transition: background 0.5s, transform 0.5s;
+}
+
+.blogs-list div i {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.blogs-list div h2 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.blogs-list div a {
+    text-decoration: none;
+    font-size: 13px;
+    margin-top: 20px;
+    display: inline-block;
+    color: #171433;
+}
+
+.blogs-list div:hover {
+    background: #333055;
+    color: #fff;
+    border: 2px solid #fff;
+    transform: translateY(-10px);
+}
+
+.blogs-list div a:hover {
+    color: #fff;
+}
 
 /* --------- contact --------- */
 
 #contact {
-    padding: 30px 0;
+    padding: 80px 0;
     position: relative;
     z-index: 2;
     background: #171433;
