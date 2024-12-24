@@ -335,7 +335,7 @@ nav ul li a:hover::after {
 
 /* --------- my blogs --------- */
 
-#blogs {
+#blog {
     padding: 20px 0;
     position: relative;
     z-index: 2;
@@ -390,7 +390,7 @@ nav ul li a:hover::after {
 
 /* --------- contact --------- */
 
-#contact {
+#contactme {
     padding: 80px 0;
     position: relative;
     z-index: 2;
