@@ -545,7 +545,6 @@ nav .fa-solid {
     nav ul li {
         display: block;
         margin: 25px;
-        scroll-behavior: smooth;
     }
 
     nav ul .fa-regular {
