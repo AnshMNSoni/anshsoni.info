@@ -3,7 +3,7 @@
 Welcome to my `personal portfolio!` This website showcases my projects, skills, and experience as a developer. Built with **HTML**, **CSS**, and **JavaScript**, it reflects my passion for web development and technology.
 
 ### 🌐 Live Demo
-👉 [Visit My Portfolio](https://anshmnsoni.github.io/anshsoni.info/)
+##### 👉 [Visit My Portfolio](https://anshmnsoni.github.io/anshsoni.info/)
 
 ---
 
@@ -28,8 +28,8 @@ Welcome to my `personal portfolio!` This website showcases my projects, skills, 
 
 ### 📬 Connect with Me
 
-- **LinkedIn**: [Your LinkedIn Profile](https://linkedin.com/in/anshmnsoni/)
-- **GitHub**: [Your GitHub Profile](https://github.com/AnshMNSoni)
+##### - **LinkedIn**: [Your LinkedIn Profile](https://linkedin.com/in/anshmnsoni/)
+##### - **GitHub**: [Your GitHub Profile](https://github.com/AnshMNSoni)
 
 ---
 
