@@ -2,12 +2,33 @@
 
 Welcome to my `personal portfolio!` This website showcases my projects, skills, and experience as a developer. Built with **HTML**, **CSS**, and **JavaScript**, it reflects my passion for web development and technology.
 
-### 🌐 Live Demo
+## 🌐 Live Demo
 ### 👉 [Visit My Portfolio](https://anshmnsoni.github.io/anshsoni.info/)
 
 ---
 
-### 📄 Features
+## 👉 Preview
+### 1️⃣ Home Page
+<img width="1896" height="915" alt="image" src="https://github.com/user-attachments/assets/75c03baa-1032-4d14-b076-b0332ab115d0" />
+
+### 2️⃣ About Page
+<img width="1900" height="885" alt="image" src="https://github.com/user-attachments/assets/94d41f12-569a-4519-bf80-26e66ef7d933" />
+
+### 3️⃣ Services Page
+<img width="1865" height="875" alt="image" src="https://github.com/user-attachments/assets/5468ac2d-039a-4b08-b28c-dd20462ea90c" />
+
+### 4️⃣ Work Page
+<img width="1897" height="906" alt="image" src="https://github.com/user-attachments/assets/78a4d3d1-166c-4555-9374-dbc0663961a9" />
+
+### 5️⃣ My Blogs
+<img width="1891" height="718" alt="image" src="https://github.com/user-attachments/assets/e9552e24-2842-4486-a9be-e25e60a7c8ab" />
+
+### 6️⃣ Contact Page
+<img width="1894" height="900" alt="image" src="https://github.com/user-attachments/assets/f02453c6-579c-414d-b7b5-6ceb87d25ddd" />
+
+---
+
+## 📄 Features
 
 - **Responsive Design**: Looks great on all devices — desktop, tablet, and mobile.
 - **Smooth Animations**: Engaging transitions and effects.
@@ -18,7 +39,7 @@ Welcome to my `personal portfolio!` This website showcases my projects, skills, 
 
 ---
 
-### 🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 - **HTML**: For structuring the content.
 - **CSS**: For styling and layout.
